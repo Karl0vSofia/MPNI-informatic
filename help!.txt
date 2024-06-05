@@ -1,0 +1,23 @@
+Якщо таблиця!
+th, td {
+background-color: #ff00bf;
+border-radius: 10px;
+border-style: outset;
+}
+</style>
+<style>
+a:link, a:visited{
+color:#000000 ;
+}
+a:hover, a:active {
+  color: red;
+}
+</style>
+
+<table style="width:100%">
+  <tr style="height:50px">
+    <th><a href="file:///C:/Users/Uchenik/Desktop/EasyMath/Information_page.html.html" target="_blank" >Тема Чотирикутник</a></th>
+    <th><a href=Т>Тема Паралелограм</a></th>
+    <th><a href="#C1">Про Автора</a></th>
+  </tr>
+</table>

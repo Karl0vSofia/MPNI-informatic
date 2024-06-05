@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Контрольна Робота</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="../other/фавикон.png">
+<style>
+ {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+background-image: url('1644498078_51-phonoteka-org-p-serii-shkolnii-fon-52.jpg');
+}
+
+
+.header {
+  background: linear-gradient(to left, #d6d6c2 0%,  #616b61 100%);
+  padding: 20px;
+  text-align: center;
+}
+h3{
+  text-align: center;
+ font-family:"Times New Roman", Times, serif;
+font-size:30px;
+text-shadow: 6px 6px 6px #00cc00;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #4d4d4d;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #00cc00;
+  color: black;
+}
+
+
+.columb{
+float: center;
+  width: 100%;
+}
+.center-img {
+  text-align: center;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+input[type=text] {
+  width: 19%;
+border: 2px solid red;
+}
+input[type=text]:focus {
+  background-color:#FCBACB ;
+}
+p{
+  text-decoration: underline;
+ text-decoration-color: purple; 
+text-align: left;
+font-family: "Times New Roman", Times, serif;
+font-size: 20px;
+}
+legend{
+  text-decoration: underline;
+ text-decoration-color: purple; 
+text-align: left;
+font-family: "Times New Roman", Times, serif;
+font-size: 20px;
+}
+h1{
+
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+</style>
+
+<body>
+<div class="header">
+  <h3>EasyMath</h3>
+
+</div>
+
+<div class="topnav">
+  <a href="../navigation.html">Головна сторінка</a>
+<a href="../other/Information_page.html">Розділ1</a>
+ <a href="../other/Information_page_2.html">Розділ2</a>
+<a href="../other/Test.html">Контрольна робота</a>
+<a href="#C2">Contacts</a>
+</div>
+<h1>Конрольна робота з теми: "Чотирикутники"</h1>
+<h2>Легкий рівень </h2>
+<form action="../лаб7/For_Lab_7.html.html" method="post">
+<fieldset>
+    <legend>Дані учня:</legend>
+<label for="fname">Прізвище Ім'я:</label>
+  <input type="text" id="fname" name="fname" maxlength="7" value="" required><br><br>
+  <label for="lname">Клас:</label>
+  <input type="text" id="lname" name="lname" size="12" value="" required><br><br>
+ 
+<p>Кути чотирикутника відносяться як 1:2:3:4. Знайти найменший і найбільший  кути чотирикутника.:</p>
+<input type="radio" id="choose1" name="кути" value="36,72">
+  <label for="choose1">36°; 72°;</label><br>
+  <input type="radio" id="choose2" name="кути" value="36,144">
+  <label for="choose2">36°; 144°; </label><br>
+<input type="radio" id="choose3" name="кути" value="36,108">
+  <label for="choose3">36°; 108°; </label><br>
+<input type="radio" id="choose4" name="кути" value="72,144" checked>
+  <label for="choose4">72°; 144°;</label><br>
+<input type="radio" id="choose5" name="кути" value="18,72">
+  <label for="choose5">18°; 72°.  </label><br>
+
+<p> Градусна міра одного з кутів паралелограма дорівнює 37°. Знайти градусну міру інших його кутів.</p>
+<input type="checkbox" id="vehicle" name="vehicle" value="Кути" checked>
+<label for="vehicle1"> 37°; 63°; 63°</label><br>
+<input type="checkbox" id="vehicle" name="vehicle" value="Кути">
+<label for="vehicle2"> 37°; 153°; 153°;</label><br>
+<input type="checkbox" id="vehicle" name="vehicle" value="Кути">
+<label for="vehicle3"> 37°; 73°; 73°;</label><br>
+<input type="checkbox" id="vehicle" name="vehicle" value="Кути" checked>
+<label for="vehicle4"> 143°; 143°; 37°.</label><br>
+
+<p>AMNK –паралелограм, О- точка перетину діагоналей; МО=6 см, АО=4 см. Знайдіть довжини АN та ОK.</p>
+<img src="../other/251171 1.png" alt="parallelogram" width="132" height="95">
+ <label for="cars">Вибірка:</label>
+  <select id="long" name="довжина">
+<option value="12,8">12 см, 8 см; </option>
+<option value="12,4" selected>12 см, 4 см;</option>
+<option value="8,6">8 см, 6 см;</option>
+<option value="8,12">8 см,12 см; </option>
+<option value="6,4"> 6 см, 4 см;  </option>
+</select>  
+
+
+  <p>ABCD — трапеція, АВ = CD, ВК — висота, ∠ABК = 36°. Знайти кути трапеції.</p>
+<img src="../other/251171 2.png" alt="trapetsia" width="150" height="75">
+ <label for="cars">Вибірка:</label>
+  <select id="long" name="довжина">
+<option value="44,44,136,136">44°, 44°, 136°, 136°; </option>
+<option value="54,54,126,126" selected>54°, 54°, 126°, 126°;</option>
+<option value="64,64,116,116">64°, 64°, 116°, 116°; </option>
+<option value="143,143,37,37">143°; 143°; 37°; 37°</option>
+</select> 
+</form>
+</fieldset>
+<h2>Середній рівень</h2>
+<form>
+<fieldset>
+<p>Встановіть відповідність між чотирикутником і його видом   </p>
+
+<table style="width:50%">
+<tr>
+<th colspan="4">Використовуючи таблицю оберіть правильну відповідь</th>
+</tr>
+  <tr>
+    <th>1</th>
+    <th><img src="../other/251171 3.png" alt="trapetsia" width="64" height="30"></th>
+    <th>A</th>
+<th>Трапеція</th>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><img src="../other/251171 4.png" alt="trapetsia" width="77" height="34"></td>
+    <td>Б</td>
+<td>Прямокутник</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><img src="../other/251171 6.png" alt="trapetsia" width="46" height="50"></td>
+    <td>В</td>
+<td>Квадрат</td>
+  </tr>
+<tr>
+    <td>4</td>
+    <td><img src="../other/251171 7.png" alt="trapetsia" width="41" height="41"></td>
+    <td>Г</td>
+<td>Паралелограм</td>
+  </tr>
+<tr>
+    <td>5</td>
+    <td><img src="../other/asd.png" alt="trapetsia" width="80" height="39"></td>
+    <td>Д</td>
+<td>Ромб</td>
+  </tr>
+</table>
+
+<input type="checkbox" id="vehicle" name="vehicle" value="Кути" checked>
+<label for="vehicle1"> 1=А,2=Д,3=Б,4=Г,5=В</label><br>
+<input type="checkbox" id="vehicle" name="vehicle" value="Кути">
+<label for="vehicle2"> 1=Б,2=В,3=Г,4=А,5=Д</label><br>
+<input type="checkbox" id="vehicle" name="vehicle" value="Кути">
+<label for="vehicle3"> 1=Б,2=Г,3=А,4=Д,5=В</label><br>
+<input type="checkbox" id="vehicle" name="vehicle" value="Кути">
+<label for="vehicle4"> 1=Г,2=Д,3=А,4=В,5=Б</label><br>
+
+<p>На продовженнях діагоналі BD прямокутника АВСD відкладено рівні відрізки ВМ і DК. Визначте вид чотирикутника АМСК.</p>
+<textarea name="message" rows="5" cols="50"></textarea>
+</form>
+</fieldset>
+<h2>Складний рівень<h2>
+<form>
+<fieldset>
+<p> Кут між висотою і діагоналлю ромба, проведеними з однієї вершини, дорівнює 30°. Знайдіть довжину діагоналі BD, якщо сторона ромба дорівнює 7 см.</p>
+<img src="../other/251171 9.png" alt="trapetsia" width="132" height="86">
+<label for="quantity">Запиши числове значення від 1 до 100:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="100">
+<p>Бісектриса AL прямокутника  ABCD ділить сторону  ВС наполовину. Знайти периметр прямокутника, якщо AВ = 8 см.</p>
+<img src="../other/251171 8.jpeg" alt="trapetsia" width="119" height="75">
+  <label for="quantity">Запиши числове значення від 1 до 100:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="100">
+
+
+
+</form>
+</fieldset>
+<input type="submit" value="Відправити">
+<input type="reset" value="Скасувати">
+<div class="footer">
+  <h2 id="C2">Contacts</h2>
+<address>
+Автор Карлова Соф'я<br>
+support:<br>
+sonyakarlova2228@gmail.com
+UA<br>
+</address>
+</div>
+
+</head>
+</html>
